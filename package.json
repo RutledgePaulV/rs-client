@@ -1,0 +1,31 @@
+{
+  "name": "rs-client",
+  "version": "1.0.0",
+  "description": "Runescape client with caching",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rutledgepaulv/rs-client.git"
+  },
+  "keywords": [
+    "runescape",
+    "client"
+  ],
+  "author": "Paul Rutledge <paul.v.rutledge@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rutledgepaulv/rs-client/issues"
+  },
+  "homepage": "https://github.com/rutledgepaulv/rs-client#readme",
+  "dependencies": {
+    "promise": "^7.1.1",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
